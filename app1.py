@@ -12,7 +12,7 @@ app = Flask(__name__)
 # the associated function.
 
 
-@app.route('')
+@app.route('/')
 # ‘/’ URL is bound with hello_world() function.
 def hello_world():
     return '\n **--Acessando maquina 1--** \n'
